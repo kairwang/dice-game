@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <title>Dicee</title>
+    <title>Dice</title>
     <link rel="stylesheet" href="styles.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
@@ -11,17 +11,24 @@
   </head>
   <body>
     <div class="container">
-      <h1>Refresh Me</h1>
+      <h1>Roll the Dice!</h1>
 
       <div class="dice">
         <p>Player 1</p>
         <img class="img1" src="./images/dice6.png" />
+        <p>Score: <span id="score1">0</span></p>
       </div>
 
       <div class="dice">
         <p>Player 2</p>
         <img class="img2" src="./images/dice6.png" />
+        <p>Score: <span id="score2">0</span></p>
       </div>
+    </div>
+
+    <div class="button-container">
+      <button id="rollButton">Roll Dice</button>
+      <button id="resetButton">Reset Game</button>
     </div>
 
   <script src="index.js"></script>

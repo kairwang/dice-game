@@ -33,3 +33,22 @@ img {
   width: 80%;
 }
 
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  font-size: 2rem;
+  margin: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #36c6d1cb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2e9fb0;
+}
